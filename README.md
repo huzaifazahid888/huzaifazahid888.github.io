@@ -57,6 +57,7 @@ Implemented real-time embedded firmware for **target trajectory computation and 
 📁 *Technologies:* STM32, C, Sensor Fusion, Control Systems  
 
 ---
+
 ## Acdemic Projects:
 ###  6-DOF Robotic Manipulator (Final Year Project)
 Designed and developed a **supervised teleoperation control system** for an industrial robotic arm.  
@@ -65,6 +66,7 @@ Designed and developed a **supervised teleoperation control system** for an indu
 - Tuned **PID controllers** for joint-level precision.  
 - Simulated kinematics in **MATLAB/Simulink** and validated in **CoppeliaSim**.  
 📁 *Technologies:* STM32, CAN Bus, MATLAB, CoppeliaSim
+
 ---
 
 ##  Certifications & Achievements
@@ -78,6 +80,4 @@ Designed and developed a **supervised teleoperation control system** for an indu
 ##  Contact
 📧 **Email:** [huzaifazahid888@gmail.com](mailto:huzaifazahid888@gmail.com)  
 🔗 **LinkedIn:** [linkedin.com/in/huzaifa-engineer](https://linkedin.com/in/huzaifa-engineer)  
-
----
 
