@@ -37,12 +37,15 @@ My passion lies in the intersection of **embedded control**, **robotics**, and *
 
 ###  [Fire Control Computer (FCS)](https://github.com/HUZAIFA0022/FCS)
 
----
 
 ## Acdemic Projects:
 
 ###  6-DOF Robotic Manipulator (Final Year Project)
 ###  [Stepper Motor Controller for 3D Printer (DLD Project)](https://github.com/HUZAIFA0022/Stepper-Motor-Controller-DLD)
+###  [Three-Stage Audio Amplifier (Class-AB)](https://github.com/HUZAIFA0022/Audio-Amplifier-Class-AB)
+
+---
+
 ##  Certifications & Achievements
 - **Certificate of Merit**, PIEAS (Top Academic Performance)  
 - **Government Scholarship Recipient** (Undergraduate)  
