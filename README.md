@@ -33,6 +33,9 @@ My passion lies in the intersection of **embedded control**, **robotics**, and *
 - [**6-DOF Robotic Manipulator (Final Year Project)**](#)  
   Designed and implemented a teleoperated robotic arm for pick and place operations.
 
+- [**SmartWatch Implementation Using FreeRTOS (RTES Project)**](https://github.com/HUZAIFA0022/SmartWatch-FreeRTOS-ESP32)  
+  Designed a smartwatch using FreeRTOS and ESP32
+
 - [**Stepper Motor Controller for 3D Printer (DLD Project)**](https://github.com/HUZAIFA0022/Stepper-Motor-Controller-DLD)  
   Built a logic-level motion control system using counters, decoders, and multiplexers to drive stepper motors.
 
