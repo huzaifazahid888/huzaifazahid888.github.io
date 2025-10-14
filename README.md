@@ -18,7 +18,7 @@ My passion lies in the intersection of **embedded control**, **robotics**, and *
 ## 💼 Professional Projects
 
 - [**Gun Control Box (GCB)**](https://github.com/HUZAIFA0022/GCB)  
-  Developed a real-time embedded control system for tank gun stabilization and to manage the power and other functionalities of a tank.
+  Developed a real-time embedded control system for tank gun & turret stabilization and to manage power distribution of a tank.
 
 - [**Gun Control Box Tester (GCB Tester)**](https://github.com/HUZAIFA0022/GCB-Tester)  
   Designed a testing unit with LabVIEW GUI for off-tank validation of GCB subsystems.
