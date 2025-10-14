@@ -31,9 +31,9 @@ My passion lies in the intersection of **embedded control**, **robotics**, and *
 ---
 ## Professional Projects:
 
-###  [Gun Control Box (GCB)](https://github.com/HUZAIFA0022/GCB/tree/main)
+###  [Gun Control Box (GCB)](https://github.com/HUZAIFA0022/GCB)
   
-###  Gun Control Box Tester (GCB Tester)
+###  [Gun Control Box Tester (GCB Tester)](https://github.com/HUZAIFA0022/GCB-Tester)
 
 ###  Fire Control Computer (FCS)
 
