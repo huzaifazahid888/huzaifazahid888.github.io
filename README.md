@@ -42,7 +42,7 @@ My passion lies in the intersection of **embedded control**, **robotics**, and *
 ## Acdemic Projects:
 
 ###  6-DOF Robotic Manipulator (Final Year Project)
-
+###  [Stepper Motor Controller for 3D Printer (DLD Project)](https://github.com/HUZAIFA0022/Stepper-Motor-Controller-DLD)
 ##  Certifications & Achievements
 - **Certificate of Merit**, PIEAS (Top Academic Performance)  
 - **Government Scholarship Recipient** (Undergraduate)  
