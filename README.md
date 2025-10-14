@@ -15,19 +15,35 @@ My passion lies in the intersection of **embedded control**, **robotics**, and *
 
 ---
 
-## Professional Projects:
+## 💼 Professional Projects
 
-###  [Gun Control Box (GCB)](https://github.com/HUZAIFA0022/GCB)
-###  [Gun Control Box Tester (GCB Tester)](https://github.com/HUZAIFA0022/GCB-Tester)
-###  [Fire Control Computer (FCS)](https://github.com/HUZAIFA0022/FCS)
+- [**Gun Control Box (GCB)**](https://github.com/HUZAIFA0022/GCB)  
+  Developed a real-time embedded control system for tank gun stabilization and to manage the power and other functionalities of a tank.
 
+- [**Gun Control Box Tester (GCB Tester)**](https://github.com/HUZAIFA0022/GCB-Tester)  
+  Designed a testing unit with LabVIEW GUI for off-tank validation of GCB subsystems.
 
-## Acdemic Projects:
+- [**Fire Control Computer (FCS)**](https://github.com/HUZAIFA0022/FCS)  
+  Built a ballistic computation unit to process multi-sensor data and compute real-time firing corrections.
 
-###  6-DOF Robotic Manipulator (Final Year Project)
-###  [Stepper Motor Controller for 3D Printer (DLD Project)](https://github.com/HUZAIFA0022/Stepper-Motor-Controller-DLD)
-###  [Three-Stage Audio Amplifier (Class-AB)](https://github.com/HUZAIFA0022/Audio-Amplifier-Class-AB)
-###  [Digital Clock Using STM32](https://github.com/HUZAIFA0022/Digital-Clock-STM32)
+---
+
+## 🎓 Academic Projects
+
+- [**6-DOF Robotic Manipulator (Final Year Project)**](#)  
+  Designed and implemented a teleoperated robotic arm for pick and place operations.
+
+- [**Stepper Motor Controller for 3D Printer (DLD Project)**](https://github.com/HUZAIFA0022/Stepper-Motor-Controller-DLD)  
+  Built a logic-level motion control system using counters, decoders, and multiplexers to drive stepper motors.
+
+- [**Three-Stage Audio Amplifier (Class-AB)**](https://github.com/HUZAIFA0022/Audio-Amplifier-Class-AB)  
+  Designed and simulated a three-stage Class-AB amplifier.
+
+- [**Digital Clock Using STM32**](https://github.com/HUZAIFA0022/Digital-Clock-STM32)  
+  Implemented a digital clock using STM32F103C8T6 in both delay-based and timer-interrupt-based modes.
+
+---
+
 
 ---
 ##  Skills
