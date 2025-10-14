@@ -45,6 +45,9 @@ My passion lies in the intersection of **embedded control**, **robotics**, and *
 - [**Digital Clock Using STM32**](https://github.com/HUZAIFA0022/Digital-Clock-STM32)  
   Implemented a digital clock using STM32F103C8T6 in both delay-based and timer-interrupt-based modes.
 
+- [**Regulated Power Supply Design (5.9V)**](https://github.com/HUZAIFA0022/Regulated-Power-Supply)  
+  Designed and simulated a regulated DC power supply
+
 ---
 
 
