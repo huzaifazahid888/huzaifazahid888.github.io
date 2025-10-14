@@ -34,7 +34,10 @@ My passion lies in the intersection of **embedded control**, **robotics**, and *
   Designed and implemented a teleoperated robotic arm for pick and place operations.
 
 - [**SmartWatch Implementation Using FreeRTOS (RTES Project)**](https://github.com/HUZAIFA0022/SmartWatch-FreeRTOS-ESP32)  
-  Designed a smartwatch using FreeRTOS and ESP32
+  Designed a smartwatch using FreeRTOS on ESP32 controller.
+
+- [**Line Following Robot Using (Robotics Project)**](https://github.com/HUZAIFA0022/Line-Following-Robot)  
+  Developed a line-following robot usinng differential drive logic.
 
 - [**Stepper Motor Controller for 3D Printer (DLD Project)**](https://github.com/HUZAIFA0022/Stepper-Motor-Controller-DLD)  
   Built a logic-level motion control system using counters, decoders, and multiplexers to drive stepper motors.
@@ -46,7 +49,7 @@ My passion lies in the intersection of **embedded control**, **robotics**, and *
   Implemented a digital clock using STM32F103C8T6 in both delay-based and timer-interrupt-based modes.
 
 - [**Regulated Power Supply Design (5.9V)**](https://github.com/HUZAIFA0022/Regulated-Power-Supply)  
-  Designed and simulated a regulated DC power supply
+  Designed and simulated a regulated DC power supply for 5.9V.
 
 ---
 
