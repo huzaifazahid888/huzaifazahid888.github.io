@@ -1,4 +1,4 @@
-# Hello, I'm Muhammad Huzaifa 👋  
+# Hello, I'm Muhammad Huzaifa   
 **Embedded Systems Designer | Robotics & Control Engineer | Firmware Developer**
 
 <a href="https://linkedin.com/in/huzaifa-engineer"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> 
