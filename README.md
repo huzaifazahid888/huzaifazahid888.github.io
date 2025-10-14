@@ -32,9 +32,7 @@ My passion lies in the intersection of **embedded control**, **robotics**, and *
 ## Professional Projects:
 
 ###  [Gun Control Box (GCB)](https://github.com/HUZAIFA0022/GCB)
-  
 ###  [Gun Control Box Tester (GCB Tester)](https://github.com/HUZAIFA0022/GCB-Tester)
-
 ###  [Fire Control Computer (FCS)](https://github.com/HUZAIFA0022/FCS)
 
 
@@ -43,6 +41,7 @@ My passion lies in the intersection of **embedded control**, **robotics**, and *
 ###  6-DOF Robotic Manipulator (Final Year Project)
 ###  [Stepper Motor Controller for 3D Printer (DLD Project)](https://github.com/HUZAIFA0022/Stepper-Motor-Controller-DLD)
 ###  [Three-Stage Audio Amplifier (Class-AB)](https://github.com/HUZAIFA0022/Audio-Amplifier-Class-AB)
+###  [Digital Clock Using STM32](https://github.com/HUZAIFA0022/Digital-Clock-STM32)
 
 ---
 
