@@ -31,43 +31,17 @@ My passion lies in the intersection of **embedded control**, **robotics**, and *
 ---
 ## Professional Projects:
 
-###  Gun Control Box (GCB)
-Developed a **real-time embedded control system** for a main battle tank to control azimuth and elevation of the gun.  
-- Designed **cascaded PID controllers** for gun stabilization in both manual and image-stabilized modes.  
-- Implemented **sensor fusion** of gyro and angular position feedback for precision aiming.  
-- Firmware written in **Embedded C (STM32)** with 420 µs control loop timing.  
-- Integrated **CAN communication**, **SPI I/O expanders**, and **I2C FRAM** for parameter storage.  
-📁 *Technologies:* STM32F4, PID Control, CAN Bus, Gyro Sensors  
-📸 *Demo:* *(Video/diagram link placeholder)*  
-
----
-
+###  [Gun Control Box (GCB)](https://github.com/HUZAIFA0022/GCB/tree/main)
+  
 ###  Gun Control Box Tester (GCB Tester)
-Standalone hardware and firmware unit to validate GCB functionality before tank installation.  
-- Designed test hardware, developed firmware, and created a **LabVIEW GUI** for complete system verification.  
-- Enabled functional testing of **70%+ of GCB components** independently.  
-📁 *Technologies:* LabVIEW, STM32, SPI, UART  
-
----
 
 ###  Fire Control Computer (FCS)
-Implemented real-time embedded firmware for **target trajectory computation and gun control**.  
-- Processed data from multiple sensors (gyro, wind, temperature, pressure).  
-- Implemented **ballistic table interpolation** and **real-time firing solution computation**.  
-📁 *Technologies:* STM32, C, Sensor Fusion, Control Systems  
 
 ---
 
 ## Acdemic Projects:
-###  6-DOF Robotic Manipulator (Final Year Project)
-Designed and developed a **supervised teleoperation control system** for an industrial robotic arm.  
-- Implemented **inverse kinematics** and **cubic trajectory planning** in STM32 firmware.  
-- Designed **master-slave CAN bus architecture** for multi-joint control.  
-- Tuned **PID controllers** for joint-level precision.  
-- Simulated kinematics in **MATLAB/Simulink** and validated in **CoppeliaSim**.  
-📁 *Technologies:* STM32, CAN Bus, MATLAB, CoppeliaSim
 
----
+###  6-DOF Robotic Manipulator (Final Year Project)
 
 ##  Certifications & Achievements
 - **Certificate of Merit**, PIEAS (Top Academic Performance)  
