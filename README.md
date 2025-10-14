@@ -15,9 +15,6 @@ My passion lies in the intersection of **embedded control**, **robotics**, and *
 
 ---
 
-## 🎯 Objective
-To advance my expertise in **robotic control and embedded intelligence** by developing robust real-time control systems that merge classic control theory with modern AI techniques.  
-I aim to pursue a **Master’s in Embedded Systems / Robotics** in Europe or the U.S. and contribute to the automation and defense technology sectors.
 
 ---
 
