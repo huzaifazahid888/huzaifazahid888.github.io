@@ -15,20 +15,6 @@ My passion lies in the intersection of **embedded control**, **robotics**, and *
 
 ---
 
-##  Skills
-
-| Category | Key Skills / Tools |
-|-----------|--------------------|
-| **Embedded Firmware Development** | C / C++, STM32 HAL, Interrupt-driven design, Real-time task scheduling |
-| **Control Systems** | PID tuning, cascaded control loops, sensor fusion, real-time feedback systems |
-| **Communication Protocols** | CAN, SPI, I2C, UART, RS-485 |
-| **Hardware Design** | Altium Designer, PCB layout, circuit debugging, signal integrity analysis |
-| **Simulation & Modeling** | MATLAB/Simulink, CoppeliaSim, LabVIEW |
-| **Development Tools** | STM32CubeIDE, Keil uVision, Logic Analyzers, ST-Link |
-| **Programming & Scripting** | C, C++, Python |
-| **Operating Systems** | FreeRTOS, bare-metal embedded systems |
-
----
 ## Professional Projects:
 
 ###  [Gun Control Box (GCB)](https://github.com/HUZAIFA0022/GCB)
@@ -44,7 +30,20 @@ My passion lies in the intersection of **embedded control**, **robotics**, and *
 ###  [Digital Clock Using STM32](https://github.com/HUZAIFA0022/Digital-Clock-STM32)
 
 ---
+##  Skills
 
+| Category | Key Skills / Tools |
+|-----------|--------------------|
+| **Embedded Firmware Development** | C / C++, STM32 HAL, Interrupt-driven design, Real-time task scheduling |
+| **Control Systems** | PID tuning, cascaded control loops, sensor fusion, real-time feedback systems |
+| **Communication Protocols** | CAN, SPI, I2C, UART, RS-485 |
+| **Hardware Design** | Altium Designer, PCB layout, circuit debugging, signal integrity analysis |
+| **Simulation & Modeling** | MATLAB/Simulink, CoppeliaSim, LabVIEW |
+| **Development Tools** | STM32CubeIDE, Keil uVision, Logic Analyzers, ST-Link |
+| **Programming & Scripting** | C, C++, Python |
+| **Operating Systems** | FreeRTOS, bare-metal embedded systems |
+
+---
 ##  Certifications & Achievements
 - **Certificate of Merit**, PIEAS (Top Academic Performance)  
 - **Government Scholarship Recipient** (Undergraduate)  
