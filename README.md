@@ -61,19 +61,15 @@ My passion lies in the intersection of **embedded control**, **robotics**, and *
 |-----------|--------------------|
 | **Embedded Firmware Development** | C / C++, STM32 HAL, Interrupt-driven design, Real-time task scheduling |
 | **Control Systems** | PID tuning, cascaded control loops, sensor fusion, real-time feedback systems |
-| **Communication Protocols** | CAN, SPI, I2C, UART, RS-485 |
-| **Hardware Design** | Altium Designer, PCB layout, circuit debugging, signal integrity analysis |
+| **Communication Protocols** | CAN, SPI, I2C/I3C, UART, RS-485, BLE |
+| **Hardware Design** | Altium Designer, PCB layout, circuit debugging |
 | **Simulation & Modeling** | MATLAB/Simulink, CoppeliaSim, LabVIEW |
 | **Development Tools** | STM32CubeIDE, Keil uVision, Logic Analyzers, ST-Link |
-| **Programming & Scripting** | C, C++, Python |
-| **Operating Systems** | FreeRTOS, bare-metal embedded systems |
+| **Programming & Scripting** | C, C++, Python | Verilog | Lua
+| **Operating Systems** | FreeRTOS, ROS2 |
 
 ---
-##  Certifications & Achievements
-- **Certificate of Merit**, PIEAS (Top Academic Performance)  
-- **Government Scholarship Recipient** (Undergraduate)  
-- **Research Internship**, Robotics & Automation Lab, PIEAS  
-- **Developed control systems** used in real-world defense applications  
+##  Courses
 
 ---
 
