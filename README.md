@@ -65,7 +65,7 @@ My passion lies in the intersection of **embedded control**, **robotics**, and *
 | **Hardware Design** | Altium Designer, PCB layout, circuit debugging |
 | **Simulation & Modeling** | MATLAB/Simulink, CoppeliaSim, LabVIEW |
 | **Development Tools** | STM32CubeIDE, Keil uVision, Logic Analyzers, ST-Link |
-| **Programming & Scripting** | C, C++, Python | Verilog | Lua
+| **Programming & Scripting** | C, C++, Python, Verilog, Lua |
 | **Operating Systems** | FreeRTOS, ROS2 |
 
 ---
