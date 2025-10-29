@@ -69,13 +69,9 @@ My passion lies in the intersection of **embedded control**, **robotics**, and *
 | **Operating Systems** | FreeRTOS, ROS2 |
 
 ---
-##  Courses
-
----
-
 ##  Contact
 **Muhammad Huzaifa**  
-Embedded Systems Designer | Islamabad, Pakistan 
+Embedded Systems Designer | Islamabad, Pakistan | 
 📧 **Email:** [huzaifazahid888@gmail.com](mailto:huzaifazahid888@gmail.com)  
 🔗 **LinkedIn:** [linkedin.com/in/huzaifa-engineer](https://linkedin.com/in/huzaifa-engineer)  
 
