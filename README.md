@@ -17,13 +17,13 @@ My passion lies in the intersection of **embedded control**, **robotics**, and *
 
 ## 💼 Professional Projects
 
-- [**Gun Control Box (GCB)**](https://github.com/HUZAIFA0022/GCB)  
-  Developed a real-time embedded control system for tank gun & turret stabilization and to manage power distribution of a tank.
+- [**Stabilization Control System (SCS)**](https://github.com/HUZAIFA0022/GCB)  
+  Developed a real-time embedded control system for multi-axis stabilization and to manage power distribution of a platform.
 
-- [**Gun Control Box Tester (GCB Tester)**](https://github.com/HUZAIFA0022/GCB-Tester)  
+- [**Stabilization Control System Tester (SCS Tester)**](https://github.com/HUZAIFA0022/GCB-Tester)  
   Designed a testing unit with LabVIEW GUI for off-tank validation of GCB subsystems.
 
-- [**Trajectory Control Computer (FCC)**](https://github.com/HUZAIFA0022/FCS)  
+- [**Trajectory Control Computer (TCC)**](https://github.com/HUZAIFA0022/FCS)  
   Built a trajectory computation unit to process multi-sensor data and compute real-time aiming corrections.
 
 ---
