@@ -23,8 +23,8 @@ My passion lies in the intersection of **embedded control**, **robotics**, and *
 - [**Gun Control Box Tester (GCB Tester)**](https://github.com/HUZAIFA0022/GCB-Tester)  
   Designed a testing unit with LabVIEW GUI for off-tank validation of GCB subsystems.
 
-- [**Fire Control Computer (FCS)**](https://github.com/HUZAIFA0022/FCS)  
-  Built a ballistic computation unit to process multi-sensor data and compute real-time firing corrections.
+- [**Trajectory Control Computer (FCC)**](https://github.com/HUZAIFA0022/FCS)  
+  Built a trajectory computation unit to process multi-sensor data and compute real-time aiming corrections.
 
 ---
 
