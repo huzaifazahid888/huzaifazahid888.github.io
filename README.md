@@ -9,7 +9,7 @@
 
 ##  About Me
 I am an **Embedded Systems Designer** with more than two year of professional experience in real-time firmware development and deployment in real world applications, robotics, and control systems.  
-I specialize in building **high-performance embedded solutions** for robotics and defense applications using **STM32 microcontrollers**, **CAN communication**, and **PID-based control algorithms**.  
+I specialize in building **high-performance embedded solutions** for different sectors using **STM32 microcontrollers**, **CAN communication**, and **PID-based control algorithms**.  
 
 My passion lies in the intersection of **embedded control**, **robotics**, and **intelligent systems**.
 
