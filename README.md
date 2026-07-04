@@ -15,7 +15,7 @@ My passion lies in the intersection of **embedded control**, **robotics**, and *
 
 ---
 
-## 💼 Professional Projects
+## Professional Projects
 
 - [**Stabilization Control System (SCS)**](https://github.com/HUZAIFA0022/GCB)  
   Developed a real-time embedded control system for multi-axis stabilization and to manage power distribution of a platform.
@@ -28,7 +28,7 @@ My passion lies in the intersection of **embedded control**, **robotics**, and *
 
 ---
 
-## 🎓 Academic Projects
+## Academic Projects
 
 - [**6-DOF Robotic Manipulator (Final Year Project)**](#)  
   Designed and implemented a teleoperated robotic arm for pick and place operations.
