@@ -1,17 +1,21 @@
-# Hello, I'm Muhammad Huzaifa   
-**Embedded Systems Designer | Robotics & Control Engineer | Firmware Developer**
+# Muhammad Huzaifa
 
-<a href="https://linkedin.com/in/huzaifa-engineer"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> 
-<a href="mailto:huzaifazahid888@gmail.com"><img src="https://img.shields.io/badge/-Email-D14836?&style=for-the-badge&logo=gmail&logoColor=white" /></a>  
-📍 Islamabad, Pakistan  
+**Embedded Systems Designer**  
+*Robotics • Control Systems • Real-Time Firmware*
+
+[LinkedIn](https://linkedin.com/in/huzaifa-engineer) • [Email](mailto:huzaifazahid888@gmail.com)
+
+Islamabad, Pakistan
 
 ---
 
-##  About Me
-I am an **Embedded Systems Designer** with more than two year of professional experience in real-time firmware development and deployment in real world applications, robotics, and control systems.  
-I specialize in building **high-performance embedded solutions** for different sectors using **STM32 microcontrollers**, **CAN communication**, and **PID-based control algorithms**.  
+## About Me
 
-My passion lies in the intersection of **embedded control**, **robotics**, and **intelligent systems**.
+I am an Embedded Systems Designer working on real-time embedded software for robotics, industrial automation, and safety-critical control systems. My work combines embedded firmware, control engineering, and hardware integration to develop reliable systems that operate under real-time constraints.
+
+My professional experience includes designing firmware, implementing closed-loop control algorithms, integrating communication protocols, and developing embedded test platforms for system validation. I also have experience with robotic manipulation, sensor fusion, and motion planning through academic and research projects.
+
+I am currently expanding my expertise in Embedded Linux, ROS 2, and the PX4 autopilot ecosystem for autonomous aerial systems. In parallel, I am exploring software-defined vehicle (SDV) architectures, with a particular interest in centralized high-performance computing platforms that enable advanced software functionality, including autonomous driving and intelligent vehicle services. My long-term interests lie in intelligent systems, autonomous robotics, and advanced control.
 
 ---
 
