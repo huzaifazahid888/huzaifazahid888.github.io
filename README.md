@@ -21,21 +21,26 @@ I am currently expanding my expertise in Embedded Linux, ROS 2, and the PX4 auto
 
 ## Professional Projects
 
+The following repositories provide high-level engineering overviews of selected industrial projects I have contributed to professionally. To respect confidentiality agreements, implementation details, source code, and design documentation are not publicly available.
+
 - [**Stabilization Control System (SCS)**](https://github.com/HUZAIFA0022/GCB)  
-  Developed a real-time embedded control system for multi-axis stabilization and to manage power distribution of a platform.
+Real-time stabilization platform featuring cascaded PID control, deterministic scheduling, Kalman filter–based sensor fusion, and redundant CAN FD communication.
 
 - [**Stabilization Control System Tester (SCS Tester)**](https://github.com/HUZAIFA0022/GCB-Tester)  
-  Designed a testing unit with LabVIEW GUI for off-platform validation of SCS subsystems.
+Hardware-in-the-loop (HIL) validation platform developed for subsystem verification, control tuning, and system-level testing using embedded firmware and a LabVIEW-based interface.
 
 - [**Trajectory Control Computer (TCC)**](https://github.com/HUZAIFA0022/FCS)  
-  Built a trajectory computation unit to process multi-sensor data and compute real-time aiming corrections.
+Real-time trajectory computation system integrating multi-sensor processing, calibration, lookup-table compensation, and deterministic motion control for automated optical alignment.
+
 
 ---
 
 ## Academic Projects
 
-- [**6-DOF Robotic Manipulator (Final Year Project)**](#)  
-  Designed and implemented a teleoperated robotic arm for pick and place operations.
+These projects were completed as part of my undergraduate coursework, research activities, and final-year thesis. They demonstrate the application of engineering principles to robotics, embedded systems, control, and electronic system design.
+
+- [**6-DOF Robotic Manipulator (Final Year Project)**](https://github.com/huzaifazahid888/6DOF_fyp)  
+Designed and implemented a robotic manipulator featuring forward and inverse kinematics, trajectory planning, CAN communication, and embedded motion control for pick-and-place applications.
 
 - [**SmartWatch Implementation Using FreeRTOS (RTES Project)**](https://github.com/HUZAIFA0022/SmartWatch-FreeRTOS-ESP32)  
   Designed a smartwatch using FreeRTOS on ESP32 controller.
