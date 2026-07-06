@@ -62,22 +62,6 @@ Designed and implemented a robotic manipulator featuring forward and inverse kin
 
 ---
 
-
----
-##  Skills
-
-| Category | Key Skills / Tools |
-|-----------|--------------------|
-| **Embedded Firmware Development** | C / C++, STM32 HAL, Interrupt-driven design, Real-time task scheduling |
-| **Control Systems** | PID tuning, cascaded control loops, sensor fusion, real-time feedback systems |
-| **Communication Protocols** | CAN, SPI, I2C/I3C, UART, RS-485, BLE |
-| **Hardware Design** | Altium Designer, PCB layout, circuit debugging |
-| **Simulation & Modeling** | MATLAB/Simulink, CoppeliaSim, LabVIEW |
-| **Development Tools** | STM32CubeIDE, Keil uVision, Logic Analyzers, ST-Link |
-| **Programming & Scripting** | C, C++, Python, Verilog, Lua |
-| **Operating Systems** | FreeRTOS, ROS2 |
-
----
 ##  Contact
 **Muhammad Huzaifa**  
 Embedded Systems Designer | Islamabad, Pakistan 
