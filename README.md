@@ -60,12 +60,3 @@ Designed and implemented a robotic manipulator featuring forward and inverse kin
 - [**Regulated Power Supply Design (5.9V)**](https://github.com/HUZAIFA0022/Regulated-Power-Supply)  
   Designed and simulated a regulated DC power supply for 5.9V.
 
----
-
-##  Contact
-**Muhammad Huzaifa**  
-Embedded Systems Designer | Islamabad, Pakistan 
-
-📧 **Email:** [huzaifazahid888@gmail.com](mailto:huzaifazahid888@gmail.com)  
-🔗 **LinkedIn:** [linkedin.com/in/huzaifa-engineer](https://linkedin.com/in/huzaifa-engineer)  
-
