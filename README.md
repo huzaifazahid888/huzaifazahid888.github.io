@@ -37,10 +37,10 @@ Real-time trajectory computation system integrating multi-sensor processing, cal
 ## Embedded Drivers
 
 Low-level peripheral drivers written for STM32.
-- [**CAN Bus Drivers (MCP2518)**](https://github.com/HUZAIFA0022/can-bus-drivers-stm32)  
+- [**CAN Bus Drivers (MCP2518)**](https://github.com/huzaifazahid888/can_fd_driver)  
 Drivers for the MCP2518 (CAN FD) controllers over SPI, covering initialization, message filtering, and interrupt-driven send/receive.
 
-- [**MCP23S17 IO Expander Driver**](https://github.com/HUZAIFA0022/mcp23s17-io-expander-driver)  
+- [**MCP23S17 IO Expander Driver**](https://github.com/huzaifazahid888/mcp23s17-io-expander-driver)  
  Driver for the MCP23S17 16-bit IO expander, used to extend GPIO capacity on pin-constrained microcontroller projects.
 
 ---
@@ -54,7 +54,7 @@ Four-layer PCB design for an embedded fire detection and suppression system, int
 
 ## Systems & Low-Level Tooling
 
-- [**STM32 USB Bootloader**](https://github.com/HUZAIFA0022/stm32-usb-bootloader)  
+- [**STM32 USB Bootloader**](https://github.com/huzaifazahid888/stm32-usb-bootloader)  
 Custom bootloader for STM32F407 that loads firmware updates from a USB flash drive using FATFS, handling USB host enumeration and flash programming.
 
 - [**Yocto + Qt Boot Environment**](https://github.com/HUZAIFA0022/yocto-qt-boot)  
