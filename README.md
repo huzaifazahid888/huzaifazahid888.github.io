@@ -37,7 +37,7 @@ Real-time trajectory computation system integrating multi-sensor processing, cal
 ## Embedded Drivers
 
 Low-level peripheral drivers written for STM32.
-- [**CAN Bus Drivers (MCP2515 / MCP2518)**](https://github.com/HUZAIFA0022/can-bus-drivers-stm32)  
+- [**CAN Bus Drivers (MCP2518)**](https://github.com/HUZAIFA0022/can-bus-drivers-stm32)  
 Drivers for the MCP2518 (CAN FD) controllers over SPI, covering initialization, message filtering, and interrupt-driven send/receive.
 
 - [**MCP23S17 IO Expander Driver**](https://github.com/HUZAIFA0022/mcp23s17-io-expander-driver)  
