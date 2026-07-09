@@ -47,8 +47,8 @@ Drivers for the MCP2518 (CAN FD) controllers over SPI, covering initialization, 
 
 ## PCB Design
 
-- [**Vehicle Fire Suppression Box (FSB) PCB**](https://github.com/huzaifazahid888/fire-suppression-box)  
-Four-layer PCB design for an embedded fire detection and suppression system, integrating multi-sensor inputs with the control firmware.
+- [**Vehicle Fire Suppression Box (FSB)**](https://github.com/huzaifazahid888/fire-suppression-box)  
+Four-layer PCB for an embedded fire detection and suppression controller, monitoring multiple sensors in real time and triggering suppression when a fire condition is confirmed.
 
 ---
 
