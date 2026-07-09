@@ -60,11 +60,12 @@ Custom bootloader for STM32F407 that loads firmware updates from a USB flash dri
 - [**Yocto + Qt Boot Environment**](https://github.com/HUZAIFA0022/yocto-qt-boot)  
   Create a custom Yocto image for Boot to QT with meta-qt6, targeting x86-64 first before moving to ARM hardware.
 ---
-
+<!--
 ## Autonomous Systems
 
 - [**QuadCopter**](https://github.com/HUZAIFA0022/px4-dev-environment-notes)  
-
+-->
+<!--
 ---
 
 ## Research Notes
@@ -73,7 +74,7 @@ Custom bootloader for STM32F407 that loads firmware updates from a USB flash dri
 Reading and research notes on software-defined vehicle architectures, covering centralized vehicle computing platforms, coupled vehicle-processor dynamics, and real-time scheduling for automotive software.
 
 ---
-
+-->
 ## Academic Projects
 
 These projects were completed as part of my undergraduate coursework, research activities, and final-year thesis. They demonstrate the application of engineering principles to robotics, embedded systems, control, and electronic system design.
