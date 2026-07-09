@@ -50,7 +50,7 @@ Drivers for the MCP2518 (CAN FD) controllers over SPI, covering initialization, 
 - [**Vehicle Fire Suppression Box (FSB)**](https://github.com/huzaifazahid888/fire-suppression-box)  
 Four-layer PCB for an embedded fire detection and suppression controller, monitoring multiple sensors in real time and triggering suppression when a fire condition is confirmed.
 
-- [**STM32 CAN Bus Shield**](https://github.com/huzaifazahid888/stm32-can-bus-shield)  
+- [**STM32 CAN Bus Shield**](https://github.com/huzaifazahid888/can_shield_stm32)  
 Custom PCB and firmware for an STM32F4-based CAN bus shield, using an MCP2515 controller over SPI, similar in concept to the Arduino CAN shield.
 
 ---
