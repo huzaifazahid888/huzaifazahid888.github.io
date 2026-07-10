@@ -55,7 +55,7 @@ Custom PCB and firmware for an STM32F4-based CAN bus shield, using an MCP2515 co
 
 ---
 
-## Systems & Low-Level Tooling
+## Systems & Low-Level Work
 
 - [**STM32 USB Bootloader**](https://github.com/huzaifazahid888/stm32-usb-bootloader)  
 Custom bootloader for STM32F407 that loads firmware updates from a USB flash drive using FATFS, handling USB host enumeration and flash programming.
@@ -63,7 +63,21 @@ Custom bootloader for STM32F407 that loads firmware updates from a USB flash dri
 - [**Yocto + Qt Boot Environment**](https://github.com/HUZAIFA0022/yocto-qt-boot)  
   Create a custom Yocto image for Boot to QT with meta-qt6, targeting x86-64 first before moving to ARM hardware.
 ---
+<!--
+## Autonomous Systems
 
+- [**QuadCopter**](https://github.com/HUZAIFA0022/px4-dev-environment-notes)  
+-->
+<!--
+---
+
+## Research Notes
+
+- [**Software-Defined Vehicle Architectures**](https://github.com/HUZAIFA0022/software-defined-vehicles-notes)  
+Reading and research notes on software-defined vehicle architectures, covering centralized vehicle computing platforms, coupled vehicle-processor dynamics, and real-time scheduling for automotive software.
+
+---
+-->
 ## Academic Projects
 
 These projects were completed as part of my undergraduate coursework, research activities, and final-year thesis. They demonstrate the application of engineering principles to robotics, embedded systems, control, and electronic system design.
