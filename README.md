@@ -67,8 +67,7 @@ Custom bootloader for STM32F407 that loads firmware updates from a USB flash dri
 ## Autonomous Systems
 
 - [**QuadCopter**](https://github.com/HUZAIFA0022/px4-dev-environment-notes)  
--->
-<!--
+
 ---
 
 ## Research Notes
