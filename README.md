@@ -61,7 +61,7 @@ Custom PCB and firmware for an STM32F4-based CAN bus shield, using an MCP2515 co
 Custom bootloader for STM32F407 that loads firmware updates from a USB flash drive using FATFS, handling USB host enumeration and flash programming.
 
 - [**Yocto + Qt Boot Environment**](https://github.com/HUZAIFA0022/yocto-qt-boot)  
- Custom Yocto image with meta-qt6 for a boot-to-Qt setup, aimed at cutting out unnecessary overhead so the Qt application starts up faster
+ Custom Yocto image with meta-qt6 for a boot-to-Qt setup, aimed at cutting out unnecessary overhead so the Qt application starts up faster.
 
 
 ---
