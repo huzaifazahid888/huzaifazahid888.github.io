@@ -19,20 +19,6 @@ I am currently expanding my expertise in Embedded Linux, ROS 2, and the PX4 auto
 
 ---
 
-## Professional Projects
-
-The following repositories provide high-level engineering overviews of selected industrial projects I have contributed to professionally. To respect confidentiality agreements, implementation details, source code, and design documentation are not publicly available.
-
-- [**Stabilization Control System (SCS)**](https://github.com/HUZAIFA0022/GCB)  
-Real-time stabilization platform featuring cascaded PID control, deterministic scheduling, Kalman filter based sensor fusion, and redundant CAN FD communication.
-
-- [**Stabilization Control System Tester (SCS Tester)**](https://github.com/HUZAIFA0022/GCB-Tester)  
-Hardware-in-the-loop (HIL) validation platform developed for subsystem verification, control tuning, and system-level testing using embedded firmware and a LabVIEW-based interface.
-
-- [**Trajectory Control Computer (TCC)**](https://github.com/HUZAIFA0022/FCS)  
-Real-time trajectory computation system integrating multi-sensor processing, calibration, lookup-table compensation, and deterministic motion control for automated optical alignment.
-
----
 
 ## Embedded Drivers
 
@@ -63,6 +49,20 @@ Custom bootloader for STM32F407 that loads firmware updates from a USB flash dri
 - [**Yocto + Qt Boot Environment**](https://github.com/HUZAIFA0022/yocto-qt-boot)  
  Custom Yocto image with meta-qt6 for a boot-to-Qt setup, aimed at cutting out unnecessary overhead so the Qt application starts up faster.
 
+---
+
+## Professional Projects
+
+The following repositories provide high-level engineering overviews of selected industrial projects I have contributed to professionally. To respect confidentiality agreements, implementation details, source code, and design documentation are not publicly available.
+
+- [**Stabilization Control System (SCS)**](https://github.com/HUZAIFA0022/GCB)  
+Real-time stabilization platform featuring cascaded PID control, deterministic scheduling, Kalman filter based sensor fusion, and redundant CAN FD communication.
+
+- [**Stabilization Control System Tester (SCS Tester)**](https://github.com/HUZAIFA0022/GCB-Tester)  
+Hardware-in-the-loop (HIL) validation platform developed for subsystem verification, control tuning, and system-level testing using embedded firmware and a LabVIEW-based interface.
+
+- [**Trajectory Control Computer (TCC)**](https://github.com/HUZAIFA0022/FCS)  
+Real-time trajectory computation system integrating multi-sensor processing, calibration, lookup-table compensation, and deterministic motion control for automated optical alignment.
 
 ---
 ## Academic Projects
