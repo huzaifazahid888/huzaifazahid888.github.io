@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Huzaifa - Embedded Systems Designer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    },
+                    colors: {
+                        darkBg: '#0a0e17',
+                        darkCard: '#111827',
+                        cyanAccent: '#38bdf8',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            background-color: #0a0e17;
+            color: #f3f4f6;
+        }
+        .glass-nav {
+            background: rgba(10, 14, 23, 0.7);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        .project-card {
+            transition: all 0.3s ease;
+        }
+        .project-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+            border-color: rgba(56, 189, 248, 0.3);
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-cyanAccent selection:text-darkBg">
+
+    <!-- Sticky Navigation -->
+    <nav class="fixed top-0 w-full z-50 glass-nav transition-all duration-300">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex flex-col md:flex-row justify-between items-center gap-4">
+            <a href="#" class="text-xl font-bold text-gray-100 hover:text-cyanAccent transition-colors">Muhammad Huzaifa</a>
+            <div class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm font-medium text-gray-400">
+                <a href="#about" class="hover:text-cyanAccent transition-colors">About Me</a>
+                <a href="#embedded-drivers" class="hover:text-cyanAccent transition-colors">Embedded Drivers</a>
+                <a href="#pcb-design" class="hover:text-cyanAccent transition-colors">PCB Design</a>
+                <a href="#systems" class="hover:text-cyanAccent transition-colors">Systems</a>
+                <a href="#professional" class="hover:text-cyanAccent transition-colors">Professional Projects</a>
+                <a href="#academic" class="hover:text-cyanAccent transition-colors">Academic Projects</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="max-w-6xl mx-auto px-6 pt-32 pb-20">
+
+        <!-- Header Section -->
+        <header class="mb-20">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4">Muhammad Huzaifa</h1>
+            <h2 class="text-xl md:text-2xl font-semibold text-gray-300 mb-2">Embedded Systems Designer</h2>
+            <p class="text-lg md:text-xl text-gray-400 italic mb-6">Robotics • Control Systems • Real-Time Firmware</p>
+
+            <div class="flex items-center gap-4 text-cyanAccent mb-4">
+                <a href="https://linkedin.com/in/huzaifa-engineer" target="_blank" class="hover:underline flex items-center gap-2">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" clip-rule="evenodd"></path></svg>
+                    LinkedIn
+                </a>
+                <span class="text-gray-600">•</span>
+                <a href="mailto:huzaifazahid888@gmail.com" class="hover:underline flex items-center gap-2">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                    Email
+                </a>
+            </div>
+            <p class="text-gray-400">Islamabad, Pakistan</p>
+        </header>
+
+        <!-- Divider -->
+        <div class="h-px bg-gray-800 w-full mb-16"></div>
+
+        <!-- // 01 About Me -->
+        <section id="about" class="mb-24 scroll-mt-32">
+            <h2 class="font-mono text-cyanAccent text-xl mb-6 tracking-tight">// 01 About Me</h2>
+            <div class="text-gray-300 space-y-6 leading-relaxed max-w-4xl text-lg">
+                <p>I am an Embedded Systems Designer working on real-time embedded software for robotics, industrial automation, and safety-critical control systems. My work combines embedded firmware, control engineering, and hardware integration to develop reliable systems that operate under real-time constraints.</p>
+                <p>My professional experience includes designing firmware, implementing closed-loop control algorithms, integrating communication protocols, and developing embedded test platforms for system validation. I also have experience with robotic manipulation, sensor fusion, and motion planning through academic and research projects.</p>
+                <p>I am currently expanding my expertise in Embedded Linux, ROS 2, and the PX4 autopilot ecosystem for autonomous aerial systems. In parallel, I am exploring software-defined vehicle (SDV) architectures, with a particular interest in centralized high-performance computing platforms that enable advanced software functionality, including autonomous driving and intelligent vehicle services. My long-term interests lie in intelligent systems, autonomous robotics, and advanced control.</p>
+            </div>
+        </section>
+
+        <!-- Divider -->
+        <div class="h-px bg-gray-800 w-full mb-16"></div>
+
+        <!-- // 02 Embedded Drivers -->
+        <section id="embedded-drivers" class="mb-24 scroll-mt-32">
+            <h2 class="font-mono text-cyanAccent text-xl mb-6 tracking-tight">// 02 Embedded Drivers</h2>
+            <p class="text-gray-300 mb-8 text-lg">Low-level peripheral drivers written for STM32.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <a href="https://github.com/huzaifazahid888/can_fd_driver" target="_blank" class="block">
+                    <div class="bg-darkCard rounded-xl p-6 border border-gray-800 h-full project-card flex flex-col relative group">
+                        <div class="absolute top-6 right-6 text-gray-500 group-hover:text-cyanAccent transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 pr-8">CAN Bus Drivers (MCP2518)</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed flex-grow">Drivers for the MCP2518 (CAN FD) controllers over SPI, covering initialization, message filtering, and interrupt-driven send/receive.</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/huzaifazahid888/mcp23s17-io-expander-driver" target="_blank" class="block">
+                    <div class="bg-darkCard rounded-xl p-6 border border-gray-800 h-full project-card flex flex-col relative group">
+                        <div class="absolute top-6 right-6 text-gray-500 group-hover:text-cyanAccent transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 pr-8">MCP23S17 IO Expander Driver</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed flex-grow">Driver for the MCP23S17 16-bit IO expander, used to extend GPIO capacity on pin-constrained microcontroller projects.</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Divider -->
+        <div class="h-px bg-gray-800 w-full mb-16"></div>
+
+        <!-- // 03 PCB Design -->
+        <section id="pcb-design" class="mb-24 scroll-mt-32">
+            <h2 class="font-mono text-cyanAccent text-xl mb-6 tracking-tight">// 03 PCB Design</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <a href="https://github.com/huzaifazahid888/fire-suppression-box" target="_blank" class="block">
+                    <div class="bg-darkCard rounded-xl p-6 border border-gray-800 h-full project-card flex flex-col relative group">
+                        <div class="absolute top-6 right-6 text-gray-500 group-hover:text-cyanAccent transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 pr-8">Vehicle Fire Suppression Box (FSB)</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed flex-grow">Four-layer PCB for an embedded fire detection and suppression controller, monitoring multiple sensors in real time and triggering suppression when a fire condition is confirmed.</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/huzaifazahid888/can_shield_stm32" target="_blank" class="block">
+                    <div class="bg-darkCard rounded-xl p-6 border border-gray-800 h-full project-card flex flex-col relative group">
+                        <div class="absolute top-6 right-6 text-gray-500 group-hover:text-cyanAccent transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 pr-8">STM32 CAN Bus Shield</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed flex-grow">Custom PCB and firmware for an STM32F4-based CAN bus shield, using an MCP2515 controller over SPI, similar in concept to the Arduino CAN shield.</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Divider -->
+        <div class="h-px bg-gray-800 w-full mb-16"></div>
+
+        <!-- // 04 Systems & Low-Level Work -->
+        <section id="systems" class="mb-24 scroll-mt-32">
+            <h2 class="font-mono text-cyanAccent text-xl mb-6 tracking-tight">// 04 Systems & Low-Level Work</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <a href="https://github.com/huzaifazahid888/stm32-usb-bootloader" target="_blank" class="block">
+                    <div class="bg-darkCard rounded-xl p-6 border border-gray-800 h-full project-card flex flex-col relative group">
+                        <div class="absolute top-6 right-6 text-gray-500 group-hover:text-cyanAccent transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 pr-8">STM32 USB Bootloader</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed flex-grow">Custom bootloader for STM32F407 that loads firmware updates from a USB flash drive using FATFS, handling USB host enumeration and flash programming.</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/HUZAIFA0022/yocto-qt-boot" target="_blank" class="block">
+                    <div class="bg-darkCard rounded-xl p-6 border border-gray-800 h-full project-card flex flex-col relative group">
+                        <div class="absolute top-6 right-6 text-gray-500 group-hover:text-cyanAccent transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 pr-8">Yocto + Qt Boot Environment</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed flex-grow">Custom Yocto image with meta-qt6 for a boot-to-Qt setup, aimed at cutting out unnecessary overhead so the Qt application starts up faster.</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Divider -->
+        <div class="h-px bg-gray-800 w-full mb-16"></div>
+
+        <!-- // 05 Professional Projects -->
+        <section id="professional" class="mb-24 scroll-mt-32">
+            <h2 class="font-mono text-cyanAccent text-xl mb-6 tracking-tight">// 05 Professional Projects</h2>
+            <p class="text-gray-300 mb-8 text-lg max-w-4xl">The following repositories provide high-level engineering overviews of selected industrial projects I have contributed to professionally. To respect confidentiality agreements, implementation details, source code, and design documentation are not publicly available.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <a href="https://github.com/HUZAIFA0022/GCB" target="_blank" class="block">
+                    <div class="bg-darkCard rounded-xl p-6 border border-gray-800 h-full project-card flex flex-col relative group">
+                        <div class="absolute top-6 right-6 text-gray-500 group-hover:text-cyanAccent transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 pr-8">Stabilization Control System (SCS)</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed flex-grow">Real-time stabilization platform featuring cascaded PID control, deterministic scheduling, Kalman filter based sensor fusion, and redundant CAN FD communication.</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/HUZAIFA0022/GCB-Tester" target="_blank" class="block">
+                    <div class="bg-darkCard rounded-xl p-6 border border-gray-800 h-full project-card flex flex-col relative group">
+                        <div class="absolute top-6 right-6 text-gray-500 group-hover:text-cyanAccent transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 pr-8">Stabilization Control System Tester (SCS Tester)</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed flex-grow">Hardware-in-the-loop (HIL) validation platform developed for subsystem verification, control tuning, and system-level testing using embedded firmware and a LabVIEW-based interface.</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/HUZAIFA0022/FCS" target="_blank" class="block">
+                    <div class="bg-darkCard rounded-xl p-6 border border-gray-800 h-full project-card flex flex-col relative group">
+                        <div class="absolute top-6 right-6 text-gray-500 group-hover:text-cyanAccent transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 pr-8">Trajectory Control Computer (TCC)</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed flex-grow">Real-time trajectory computation system integrating multi-sensor processing, calibration, lookup-table compensation, and deterministic motion control for automated optical alignment.</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Divider -->
+        <div class="h-px bg-gray-800 w-full mb-16"></div>
+
+        <!-- // 06 Academic Projects -->
+        <section id="academic" class="mb-24 scroll-mt-32">
+            <h2 class="font-mono text-cyanAccent text-xl mb-6 tracking-tight">// 06 Academic Projects</h2>
+            <p class="text-gray-300 mb-8 text-lg max-w-4xl">These projects were completed as part of my undergraduate coursework, research activities, and final-year thesis. They demonstrate the application of engineering principles to robotics, embedded systems, control, and electronic system design.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <a href="https://github.com/huzaifazahid888/6DOF_fyp" target="_blank" class="block">
+                    <div class="bg-darkCard rounded-xl p-6 border border-gray-800 h-full project-card flex flex-col relative group">
+                        <div class="absolute top-6 right-6 text-gray-500 group-hover:text-cyanAccent transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 pr-8">6-DOF Robotic Manipulator (Final Year Project)</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed flex-grow">Designed and implemented a robotic manipulator featuring forward and inverse kinematics, trajectory planning, CAN communication, and embedded motion control for pick-and-place applications.</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/HUZAIFA0022/SmartWatch-FreeRTOS-ESP32" target="_blank" class="block">
+                    <div class="bg-darkCard rounded-xl p-6 border border-gray-800 h-full project-card flex flex-col relative group">
+                        <div class="absolute top-6 right-6 text-gray-500 group-hover:text-cyanAccent transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 pr-8">SmartWatch Implementation Using FreeRTOS (RTES Project)</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed flex-grow">Designed a smartwatch using FreeRTOS on ESP32 controller.</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/HUZAIFA0022/Line-Following-Robot" target="_blank" class="block">
+                    <div class="bg-darkCard rounded-xl p-6 border border-gray-800 h-full project-card flex flex-col relative group">
+                        <div class="absolute top-6 right-6 text-gray-500 group-hover:text-cyanAccent transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 pr-8">Line Following Robot (Robotics Project)</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed flex-grow">Developed a line-following robot using differential drive logic.</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/HUZAIFA0022/Stepper-Motor-Controller-DLD" target="_blank" class="block">
+                    <div class="bg-darkCard rounded-xl p-6 border border-gray-800 h-full project-card flex flex-col relative group">
+                        <div class="absolute top-6 right-6 text-gray-500 group-hover:text-cyanAccent transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 pr-8">Stepper Motor Controller for 3D Printer (DLD Project)</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed flex-grow">Built a logic-level motion control system using counters, decoders, and multiplexers to drive stepper motors.</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/HUZAIFA0022/Audio-Amplifier-Class-AB" target="_blank" class="block">
+                    <div class="bg-darkCard rounded-xl p-6 border border-gray-800 h-full project-card flex flex-col relative group">
+                        <div class="absolute top-6 right-6 text-gray-500 group-hover:text-cyanAccent transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 pr-8">Three-Stage Audio Amplifier (Class-AB)</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed flex-grow">Designed and simulated a three-stage Class-AB amplifier.</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/HUZAIFA0022/Digital-Clock-STM32" target="_blank" class="block">
+                    <div class="bg-darkCard rounded-xl p-6 border border-gray-800 h-full project-card flex flex-col relative group">
+                        <div class="absolute top-6 right-6 text-gray-500 group-hover:text-cyanAccent transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 pr-8">Digital Clock Using STM32</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed flex-grow">Implemented a digital clock using STM32F103C8T6 in both delay-based and timer-interrupt-based modes.</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/HUZAIFA0022/Regulated-Power-Supply" target="_blank" class="block">
+                    <div class="bg-darkCard rounded-xl p-6 border border-gray-800 h-full project-card flex flex-col relative group">
+                        <div class="absolute top-6 right-6 text-gray-500 group-hover:text-cyanAccent transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 pr-8">Regulated Power Supply Design (5.9V)</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed flex-grow">Designed and simulated a regulated DC power supply for 5.9V.</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-gray-800 bg-darkCard/50 py-8">
+        <div class="max-w-6xl mx-auto px-6 text-center text-gray-500 text-sm">
+            <p>&copy; Muhammad Huzaifa - Embedded Systems Designer</p>
+        </div>
+    </footer>
+
+</body>
+</html>
