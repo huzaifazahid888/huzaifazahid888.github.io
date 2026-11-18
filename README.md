@@ -53,7 +53,10 @@ Custom bootloader for STM32F407 that loads firmware updates from a USB flash dri
 
 ## Professional Projects
 
-The following repositories provide high-level engineering overviews of selected industrial projects I have contributed to professionally. To respect confidentiality agreements, implementation details, source code, and design documentation are not publicly available.
+The projects below include industrial engineering work and my ongoing UAV development. Industrial project repositories contain high-level overviews where implementation details cannot be shared publicly.
+
+- [**Autonomous UAV System**](https://github.com/huzaifazahid888/drone-development-and-flight-tests)  
+Development and flight testing of small, mid-size and large quadcopters using PX4, including GNSS/EKF2 configuration, flight control tuning, ESC and battery monitoring, and RF video and telemetry integration.
 
 - [**Stabilization Control System (SCS)**](https://github.com/HUZAIFA0022/GCB)  
 Real-time stabilization platform featuring cascaded PID control, deterministic scheduling, Kalman filter based sensor fusion, and redundant CAN FD communication.
